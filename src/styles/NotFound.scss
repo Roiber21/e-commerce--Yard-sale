@@ -1,0 +1,49 @@
+@import 'vars';
+
+.container{
+    width: 30rem;
+    height: 30rem;
+    margin: auto;
+    text-align: center;
+   
+}
+.error_burbuja{
+    width: 10rem;
+    height: 10rem;
+    background-color: var(--hospital-green);
+    display: flex;
+    margin: auto;
+    position: relative;
+    top: 3rem;
+    border-radius: 5rem;
+
+}
+.error_burbuja h1{
+    font-size: 2.6rem;
+    text-align: center;
+    
+}
+.container h2{
+    padding: 3rem;
+}
+.container p{
+    color: var(--very-light-pink);
+}
+.boton_home a{
+ text-decoration: none;
+ color: var(--white);
+ font-size: 2rem;
+}
+.boton_home{
+    background-color: var(--hospital-green);
+border-radius: 8px;
+border: none;
+width: 100%;
+cursor: pointer;
+font-weight: bold;
+height: 50px;
+}
+.boton_home:hover{
+    background-color: rgb(75, 255, 75);
+
+}
